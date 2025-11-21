@@ -80,14 +80,19 @@ We're currently in the planning and architecture phase. See [ARCHITECTURE.md](./
 
 ```
 Such.Fund/
-├── allo-v2/              # Cloned Allo Protocol contracts (reference)
 ├── contracts/            # Custom smart contracts (to be created)
 ├── backend/              # API server + QF calculation engine (to be created)
 ├── frontend/             # Next.js application (to be created)
 ├── subgraph/             # The Graph indexer (to be created)
 ├── docs/                 # Additional documentation (to be created)
 ├── ARCHITECTURE.md       # Complete technical architecture
-└── README.md             # This file
+├── README.md             # This file
+└── .gitignore            # Git ignore file
+```
+
+**Note:** The `allo-v2/` directory is excluded from git. Clone it separately for reference:
+```bash
+git clone https://github.com/allo-protocol/allo-v2.git
 ```
 
 ## How It Works
